@@ -1,0 +1,37 @@
+﻿<Window x:Class="ProjetoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.Background>
+
+                <ImageBrush ImageSource="/657d93c686e44e2d9b543a6e1e42cbca.jpg"/>
+            </Grid.Background>
+            <Rectangle Fill="#CCF7F5F5" Margin="223,33,223,33">
+                <Rectangle.Stroke>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FFCDB7B7" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Stroke>
+            </Rectangle>
+
+            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="26" TextChanged="TextBox_TextChanged" Margin="295,185,0,0"/>
+            <Label Content="Usuário" HorizontalAlignment="Left" Margin="370,148,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Bahnschrift SemiCondensed"/>
+            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="26" TextChanged="TextBox_TextChanged" Margin="295,273,0,0" Cursor="" SelectionOpacity="-2" InputScope="Xml"/>
+            <Label Content="Login" HorizontalAlignment="Left" Margin="364,66,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Bahnschrift SemiBold SemiCondensed" RenderTransformOrigin="0.486,1.018"/>
+            <Label Content="Senha" HorizontalAlignment="Left" Margin="376,231,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Bahnschrift SemiCondensed"/>
+            <Image HorizontalAlignment="Left" Height="49" Margin="309,76,0,0" VerticalAlignment="Top" Width="66" Source="/cadastro.png" RenderTransformOrigin="1.462,0.128"/>
+            <Button Content="Entrar" HorizontalAlignment="Left" Margin="321,330,0,0" FontSize="30" Width="168" FontFamily="Bahnschrift Condensed" Height="40" VerticalAlignment="Top"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="331,156,0,0" VerticalAlignment="Top" Width="28" Source="/pngwing.com (2).png" RenderTransformOrigin="0.384,-0.027"/>
+            <Image HorizontalAlignment="Left" Height="37" Margin="333,235,0,0" VerticalAlignment="Top" Width="28" Source="/pngwing.com (3).png"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
